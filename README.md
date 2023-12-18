@@ -1,37 +1,36 @@
-# [Django Black Dashboard](https://appseed.us/product/black-dashboard/django/)
+# [Django Lux Dashboard](https://appseed.us/product/black-dashboard/django/)
 
-Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django/)** provided by `AppSeed` on top of **Black Dashboard**, an open-source `Bootstrap` Design from `Creative-Tim`.
-The product is designed to deliver the best possible user experience with highly customizable feature-rich pages. 
+Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django/)** provided by `AppSeed` on top of **Lux Dashboard**, an open-source `Bootstrap` Design from `Creative-Tim`.
+The product is designed to deliver the best possible user experience with highly customizable feature-rich pages.
 
-- 👉 [Django Black Dashboard](https://appseed.us/product/black-dashboard/django/) - `Product page`
-- 👉 [Django Black Dashboard](https://django-black-dashboard.appseed-srv1.com/) - `LIVE Demo`
+- 👉 [Django Lux Dashboard](https://appseed.us/product/black-dashboard/django/) - `Product page`
+- 👉 [Django Lux Dashboard](https://django-black-dashboard.appseed-srv1.com/) - `LIVE Demo`
 
-<br /> 
+<br />
 
 ## Features
 
 > `Have questions?` Contact **[Support](https://appseed.us/support/)** (Email & Discord) provided by **AppSeed**
 
-| Free Version                          | [PRO Version](https://appseed.us/product/black-dashboard-pro/django/)    | 🚀 Custom - $3,999         |  
-| --------------------------------------| --------------------------------------| --------------------------------------|
-| ✓ **Django 4.1.12**                   | **Everything in Free**, plus:                                        | **Everything in PRO**, plus:       |
-| ✓ Best Practices                      | ✅ **Premium Bootstrap Design**                                      | ✅ **1mo Custom Development**     | 
-| ✓ Bootstrap Design                    | ✅ `Private REPO Access`                                             | ✅ **Dedicated Developer**        |
-| ✓ `Docker`                            | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)  | ✅ Weekly Sprints                 |
-| ✓ `CI/CD` Flow via Render             | ✅ Deployment Assistance                                             | ✅ Technical SPECS                |
-| ✓ `Free Support                       | -                                                                     | ✅ Documentation                  |
-| -                                     | -                                                                     | ✅ **30 days Delivery Warranty**  |
-| ------------------------------------  | ------------------------------------                                  | ------------------------------------|
-| ✓ [LIVE Demo](https://django-black-dashboard.appseed-srv1.com/)  | 🚀 [LIVE Demo](https://django-black-dashboard-pro.appseed-srv1.com/) | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |   
-
+| Free Version                                                    | [PRO Version](https://appseed.us/product/black-dashboard-pro/django/) | 🚀 Custom - $3,999                                                               |
+| --------------------------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| ✓ **Django 4.1.12**                                             | **Everything in Free**, plus:                                         | **Everything in PRO**, plus:                                                     |
+| ✓ Best Practices                                                | ✅ **Premium Bootstrap Design**                                       | ✅ **1mo Custom Development**                                                    |
+| ✓ Bootstrap Design                                              | ✅ `Private REPO Access`                                              | ✅ **Dedicated Developer**                                                       |
+| ✓ `Docker`                                                      | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)   | ✅ Weekly Sprints                                                                |
+| ✓ `CI/CD` Flow via Render                                       | ✅ Deployment Assistance                                              | ✅ Technical SPECS                                                               |
+| ✓ `Free Support                                                 | -                                                                     | ✅ Documentation                                                                 |
+| -                                                               | -                                                                     | ✅ **30 days Delivery Warranty**                                                 |
+| ------------------------------------                            | ------------------------------------                                  | ------------------------------------                                             |
+| ✓ [LIVE Demo](https://django-black-dashboard.appseed-srv1.com/) | 🚀 [LIVE Demo](https://django-black-dashboard-pro.appseed-srv1.com/)  | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |
 
 ![Django Admin Black - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/196730732-dda1794b-93ce-48cb-bc5c-182411495512.png)
 
 <br />
 
-## Manual Build 
+## Manual Build
 
-> 👉 Download the code  
+> 👉 Download the code
 
 ```bash
 $ git clone https://github.com/app-generator/django-black-dashboard.git
@@ -42,7 +41,6 @@ $ cd django-black-dashboard
 
 > 👉 Install modules via `VENV`.
 
-
 ```bash
 $ virtualenv env
 $ source env/bin/activate
@@ -51,7 +49,7 @@ $ pip install -r requirements.txt
 
 <br />
 
-> 👉 Edit the `.env` using the template `.env.sample`. 
+> 👉 Edit the `.env` using the template `.env.sample`.
 
 ```env
 
@@ -85,7 +83,7 @@ $ python manage.py createsuperuser
 $ python manage.py runserver
 ```
 
-At this point, the app runs at `http://127.0.0.1:8000/`. 
+At this point, the app runs at `http://127.0.0.1:8000/`.
 
 <br />
 
@@ -96,15 +94,15 @@ The project is coded using a simple and intuitive structure presented below:
 ```bash
 < PROJECT ROOT >
    |
-   |-- core/                            
-   |    |-- settings.py    # Project Configuration  
+   |-- core/
+   |    |-- settings.py    # Project Configuration
    |    |-- urls.py        # Project Routing
    |
    |-- home/
-   |    |-- views.py       # APP Views 
+   |    |-- views.py       # APP Views
    |    |-- urls.py        # APP Routing
-   |    |-- models.py      # APP Models 
-   |    |-- tests.py       # Tests  
+   |    |-- models.py      # APP Models
+   |    |-- tests.py       # Tests
    |
    |-- requirements.txt    # Project Dependencies
    |
@@ -116,39 +114,39 @@ The project is coded using a simple and intuitive structure presented below:
 
 <br />
 
-## How to Customize 
+## How to Customize
 
-When a template file is loaded in the controller, `Django` scans all template directories starting from the ones defined by the user, and returns the first match or an error in case the template is not found. 
-The theme used to style this starter provides the following files: 
+When a template file is loaded in the controller, `Django` scans all template directories starting from the ones defined by the user, and returns the first match or an error in case the template is not found.
+The theme used to style this starter provides the following files:
 
 ```bash
 # This exists in ENV: LIB/admin_black
-< UI_LIBRARY_ROOT >                      
+< UI_LIBRARY_ROOT >
    |
-   |-- templates/                     # Root Templates Folder 
-   |    |          
-   |    |-- accounts/       
+   |-- templates/                     # Root Templates Folder
+   |    |
+   |    |-- accounts/
    |    |    |-- auth-signin.html     # Sign IN Page
    |    |    |-- auth-signup.html     # Sign UP Page
    |    |
-   |    |-- includes/       
+   |    |-- includes/
    |    |    |-- footer.html          # Footer component
    |    |    |-- sidebar.html         # Sidebar component
    |    |    |-- navigation.html      # Navigation Bar
    |    |    |-- scripts.html         # Scripts Component
    |    |
-   |    |-- layouts/       
+   |    |-- layouts/
    |    |    |-- base.html            # Masterpage
    |    |
-   |    |-- pages/       
+   |    |-- pages/
    |         |-- dashboard.html       # Dashboard page
    |         |-- user.html            # Settings  Page
    |         |-- *.html               # All other pages
-   |    
+   |
    |-- ************************************************************************
 ```
 
-When the project requires customization, we need to copy the original file that needs an update (from the virtual environment) and place it in the template folder using the same path. 
+When the project requires customization, we need to copy the original file that needs an update (from the virtual environment) and place it in the template folder using the same path.
 
 > For instance, if we want to **customize the dashboard.html** these are the steps:
 
@@ -161,39 +159,39 @@ When the project requires customization, we need to copy the original file that 
 
 > To speed up all these steps, the **codebase is already configured** (`Steps 1, and 2`) and a `custom dashboard` can be found at this location:
 
-`templates/pages/custom-dashboard.html` 
+`templates/pages/custom-dashboard.html`
 
-By default, this file is unused because the `theme` expects `dashboard.html` (without the `custom-` prefix). 
+By default, this file is unused because the `theme` expects `dashboard.html` (without the `custom-` prefix).
 
-In order to use it, simply rename it to `dashboard.html`. Like this, the default version shipped in the library is ignored by Django. 
+In order to use it, simply rename it to `dashboard.html`. Like this, the default version shipped in the library is ignored by Django.
 
 In a similar way, all other files and components can be customized easily.
 
 <br />
 
-## Recompile SCSS  
+## Recompile SCSS
 
-The SCSS/CSS files used to style the Ui are saved in the `static/assets` directory. 
-In order to update the Ui colors (primary, secondary) this procedure needs to be followed. 
+The SCSS/CSS files used to style the Ui are saved in the `static/assets` directory.
+In order to update the Ui colors (primary, secondary) this procedure needs to be followed.
 
 ```bash
 $ yarn # install modules
-$ # # edit variables 
-$ vi static/assets/scss/black-dashboard/custom/_variables.scss 
+$ # # edit variables
+$ vi static/assets/scss/black-dashboard/custom/_variables.scss
 $ gulp # SCSS to CSS translation
 ```
 
-The `_variables.scss` content defines the `primary` and `secondary` colors: 
+The `_variables.scss` content defines the `primary` and `secondary` colors:
 
 ```scss
-$default:       #344675 !default; // EDIT for customization
-$primary:       #e14eca !default; // EDIT for customization
-$secondary:     #f4f5f7 !default; // EDIT for customization
-$success:       #00f2c3 !default; // EDIT for customization
-$info:          #1d8cf8 !default; // EDIT for customization
-$warning:       #ff8d72 !default; // EDIT for customization
-$danger:        #fd5d93 !default; // EDIT for customization
-$black:         #222a42 !default; // EDIT for customization
+$default: #344675 !default; // EDIT for customization
+$primary: #e14eca !default; // EDIT for customization
+$secondary: #f4f5f7 !default; // EDIT for customization
+$success: #00f2c3 !default; // EDIT for customization
+$info: #1d8cf8 !default; // EDIT for customization
+$warning: #ff8d72 !default; // EDIT for customization
+$danger: #fd5d93 !default; // EDIT for customization
+$black: #222a42 !default; // EDIT for customization
 ```
 
 <br />
@@ -212,4 +210,5 @@ At this point, the product should be LIVE.
 <br />
 
 ---
-[Django Black Dashboard](https://appseed.us/product/black-dashboard/django/) - **Django** starter provided by **[AppSeed](https://appseed.us/)**
+
+[Django Lux Dashboard](https://appseed.us/product/black-dashboard/django/) - **Django** starter provided by **[AppSeed](https://appseed.us/)**
